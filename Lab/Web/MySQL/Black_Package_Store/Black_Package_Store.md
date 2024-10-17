@@ -1,14 +1,14 @@
 # TỔNG QUAN # 
 Kiểm tra trên web "Black Package Store" `https://blackpackagestore.com/product.php?id=72`
 
+![image](https://github.com/user-attachments/assets/df34c6d3-c54f-4b61-a8d8-c942b15b4122)
+
 ## CÁC BƯỚC
 
 * [Dò tìm số cột](#dò-tìm-số-cột)
 * [Kiểm tra database, version, user](#kiểm-tra-database-version-user)
 * [Trích xuất cơ sở dữ liệu](#trích-xuất-cơ-sở-dữ-liệu)
 * [Sử dụng `sqlmap`](#sử-dụng-sqlmap)
-
-![image](https://github.com/user-attachments/assets/df34c6d3-c54f-4b61-a8d8-c942b15b4122)
 
 ## Dò tìm số cột
 
