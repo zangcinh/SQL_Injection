@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1f6ce828-ece4-4dbc-b73b-101840432cf3)# TỔNG QUAN # 
+# TỔNG QUAN # 
 
 Kiểm tra trên web "Computer Society of India" `https://csi-india.org/news/index.php?id=18`
 
