@@ -12,9 +12,7 @@ Kiểm tra trên web "Black Package Store" `https://blackpackagestore.com/produc
 
 ## Dò tìm số cột
 
-![image](https://github.com/user-attachments/assets/f1267547-fce3-4a83-8b3a-c647b831057b)
-
-![image](https://github.com/user-attachments/assets/f9557a86-761c-4539-8d4a-e08855dc7b98)
+![image](https://github.com/user-attachments/assets/1dae9e7c-ede6-497c-bd76-4927cd8affc5)
 
 ![image](https://github.com/user-attachments/assets/8b967633-6006-433d-80f3-3611674607cc)
 
