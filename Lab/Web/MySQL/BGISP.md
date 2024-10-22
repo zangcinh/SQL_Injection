@@ -2,7 +2,6 @@
 
 Kiểm tra trên web "BGISP" `http://www.gis.gov.bd/en/gis_file.php?id=9`
 
-![image](https://github.com/user-attachments/assets/85c01fa4-b13a-486c-8069-8d21abe91987)
 
 ## CÁC BƯỚC
 
@@ -13,13 +12,11 @@ Kiểm tra trên web "BGISP" `http://www.gis.gov.bd/en/gis_file.php?id=9`
 
 ## Dò tìm số cột
 
-![image](https://github.com/user-attachments/assets/74035a99-c8ad-4652-a1c6-30c8e4026d84)
-
-![image](https://github.com/user-attachments/assets/31500647-5000-43f6-ab3d-a494441d5a1f)
-
-![image](https://github.com/user-attachments/assets/44c99e22-59f6-46c5-aaab-d7f7b7743c18)
 
 ## Kiểm tra database, version, user 
+
+![image](https://github.com/user-attachments/assets/d160197b-a4a3-4077-8618-8ad9c1603151)
+
 
 ## Trích xuất cơ sở dữ liệu 
 
