@@ -2,7 +2,7 @@
 
 Kiểm tra trên web "CMKOO" `http://www.cmkoo.com.hk/en/news/news.php?id=28`
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/202c0835-021d-41a0-8917-919b182cdbdb)
 
 ## CÁC BƯỚC
 
