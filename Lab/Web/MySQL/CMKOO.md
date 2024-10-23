@@ -6,7 +6,7 @@ Kiểm tra trên web "CMKOO" `[http://www.gis.gov.bd/en/gis_file.php?id=9](http:
 ## CÁC BƯỚC
 
 * [Dò tìm số cột](#dò-tìm-số-cột)
-* [Kiểm tra database, version, user](#kiểm-tra-database-version-user)
+* [Kiểm tra database, user](#kiểm-tra-database-user)
 * [Trích xuất cơ sở dữ liệu](#trích-xuất-cơ-sở-dữ-liệu)
 * [Sử dụng `sqlmap`](#sử-dụng-sqlmap)
 
@@ -28,7 +28,7 @@ Kiểm tra trên web "CMKOO" `[http://www.gis.gov.bd/en/gis_file.php?id=9](http:
 
 => Số cột là 16
 
-## Kiểm tra database, version, user 
+## Kiểm tra database, user 
 
 **1. User**
 
